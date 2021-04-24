@@ -1,10 +1,10 @@
-matplotlib==3.2.2
-wordcloud==1.8.1
-transformers==4.5.1
-nltk==3.5
-tika==1.24
-seaborn==0.11.0
 pandas==1.1.5
+tika==1.24
+matplotlib==3.2.2
+nltk==3.5
+seaborn==0.11.0
+transformers==4.5.1
 numpy==1.19.5
+wordcloud==1.8.1
 beautifulsoup4==4.9.3
 scikit_learn==0.24.1

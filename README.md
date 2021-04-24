@@ -1,1 +1,48 @@
-# warren_buffet_letters
+# Warren Buffet letters Analysis
+
+### Table of Contents
+
+1. [Overview](#overview)
+2. [Installation](#installation)
+3. [Running](#running)
+4. [Final Considerations](#considerations)
+
+## Overview <a name="overview"></a>
+
+The Goal of this project is to use NLP techniques such as Question and Answering,
+Sentiment Analysis, WordCloud and others to extract meaningful insights about
+Warren Buffet anual letters to the Berkshire Hathaway shareholders.
+
+## Installation <a name="installation"></a>
+
+Create a virtual environment named **ibm_venv**.
+
+```
+$ python3 -m venv warren_venv -- for Linux and macOS
+$ python -m venv warren_venv -- for Windows
+```
+
+After that, activate the python virtual environment
+
+```
+$ source warren_venv/bin/activate -- for Linux and macOS
+$ warren_venv\Scripts\activate -- for Windows
+```
+
+Install the requirements
+
+```
+$ pip install -r requirements.txt
+```
+
+## Running <a name="running"></a>
+
+To run it you have to download the letters after 2000 at 
+https://www.berkshirehathaway.com/letters/letters.html. After that you need to
+change the paramaters from the function get_letters_corpus_dict to the directory
+containing the leters, after that you only need to run the desired cells of
+the notebook
+
+## Final Considerations and acknowledgments <a name="considerations"></a>
+
+To see the full analysis of this code, acess my medium post at:
