@@ -49,7 +49,6 @@ the notebook
 
 You can get the most similar documents to a specific letter year by running the
 doc_sim_main.py.
-print(main(ARGS.algorithm, ARGS.distance, ARGS.path, ARGS.target, ARGS.number, ARGS.pretrained))
 
 ```
 python doc_sim_main.py --algorithm <algorithm> --distance <distance> --path <path> --target <target> --number <number> --pretrained <pretrained>

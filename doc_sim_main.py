@@ -1,6 +1,7 @@
 import argparse
 from document_similarity import get_letters_df, get_tfidf, get_word2vec, get_doc2vec, get_transformers
 import constants as const
+import time
 
 
 def main(algorithm, distance, letters_dict_pickle, year, n, pre_trained_model=''):
@@ -52,4 +53,6 @@ if __name__ == '__main__':
         "-pre", "--pretrained", help="The pretrained model to use in transformers.")
 
     ARGS = PARSER.parse_args()
-    print(main(ARGS.algorithm, ARGS.distance, ARGS.path, ARGS.target, ARGS.number, ARGS.pretrained))
+    start = time.time()
+    print(main(ARGS.algorithm, ARGS.distance, ARGS.path, int(ARGS.target), int(ARGS.number), ARGS.pretrained))
+    print(f'Execution time = {time.time() - start} seconds.')
