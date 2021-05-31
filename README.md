@@ -65,3 +65,6 @@ Where:
 ## Final Considerations and acknowledgments <a name="considerations"></a>
 
 To see the full analysis of this code, access my medium post at:
+https://medium.com/analytics-vidhya/best-nlp-algorithms-to-get-document-similarity-a5559244b23b
+https://medium.com/analytics-vidhya/using-nlp-to-get-inside-warren-buffet-mind-part-2-8e3557810a39
+https://medium.com/analytics-vidhya/using-nlp-to-get-inside-warren-buffet-mind-part-i-666d717d0c2e
